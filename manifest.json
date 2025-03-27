@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "TwitchPlaysPokemon Chat Buttons",
+  "version": "2.0",
+  "permissions": ["activeTab", "storage", "scripting", "identity"],
+  "host_permissions": ["https://api.twitch.tv/*", "https://id.twitch.tv/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "32": "logo/32h/tpp-button-logo-crop.png",
+    "48": "logo/48h/tpp-button-logo-crop.png",
+    "64": "logo/64h/tpp-button-logo-crop.png",
+    "96": "logo/96h/tpp-button-logo-crop.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitch.tv/twitchplayspokemo*"],
+      "js": ["jquery-3.7.1.min.js", "content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tpp@schoch.co.nz"
+    }
+  }
+}
