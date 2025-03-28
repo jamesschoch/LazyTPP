@@ -1,5 +1,5 @@
 
-[LazyTPP is a browser extension that adds overlay buttons to TwitchPlaysPokémon, allowing users to place bets, play pinball, check their balance, input move commands, and access the visualizer without typing in chat.]: https://raw.githubusercontent.com/jamesschoch/LazyTPP/refs/heads/main/lazytpp.png =500x230
+<img src="https://raw.githubusercontent.com/jamesschoch/LazyTPP/refs/heads/main/lazytpp.png" width="500") />
 
 # LazyTPP
 
