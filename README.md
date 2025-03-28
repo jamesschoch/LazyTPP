@@ -7,6 +7,7 @@ LazyTPP is a browser extension that adds overlay buttons to TwitchPlaysPokémon,
 
 ## Features
 - Quick betting and pinball buttons for mouse only input
+  - *Hold shift while clicking + or - to increase/decrease your betting amount by 1000 instead of 100*
 - Auto Pinball
 	- *(As each new game of pinball starts, your currently selected pinball settings will be submitted to chat)*
 - Autoupdating pokéyen, token and rank balances/values
