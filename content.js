@@ -162,11 +162,11 @@ function initializeWebSocket(websocketUrl, accessToken, username) {
       }, 3000);
     } else if (event.data.indexOf("The match starts in 10 seconds") !== -1) {
       updateBalance();
-      if (autobet) {
-        setTimeout(() => {
-          sendMessageToTwitchChat("!bet " + betValue + " " + betTeam);
-        }, 3000);
-      }
+      // `if (autobet) {
+      //   setTimeout(() => {
+      //     sendMessageToTwitchChat("!bet " + betValue + " " + betTeam);
+      //   }, 3000);
+      // }`
     }
 
     if (event.data.includes('PING')) {
@@ -262,8 +262,8 @@ var template = `
         <div class="tpp-radiogroup"><input type="radio" name="betTeam" value="red"
             class="tpp-radio tpp-radio-red"><label class="tpp-button">Red</label></div>
       </div><button class="tpp-button tpp-bet-submit-button">Bet</button>
-      <div class="tpp-checkbox-container"><input type="checkbox" name="autoBet" value="autoBet" id="autoBet"
-          class="tpp-checkbox"><span class="tpp-checkmark"></span></div>
+      <div class="tpp-checkbox-container"><!-- <input type="checkbox" name="autoBet" value="autoBet" id="autoBet"
+          class="tpp-checkbox"><span class="tpp-checkmark"></span></div> !-->
     </div>
     <div class="tpp-buttons-row tpp-buttons-row-pinball"><input type="number" min="1" value="1" step="1"
         class="tpp-value-field tpp-value-pinball-field"><button
