@@ -1,5 +1,5 @@
 
-<img src="https://raw.githubusercontent.com/jamesschoch/LazyTPP/refs/heads/main/lazytpp.png" width="500") />
+<img src="https://raw.githubusercontent.com/jamesschoch/LazyTPP/refs/heads/main/lazytpp.png" width="500">
 
 # LazyTPP
 
