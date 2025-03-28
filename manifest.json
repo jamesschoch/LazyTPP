@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "TwitchPlaysPokemon Chat Buttons",
-  "version": "2.0",
+  "name": "LazyTPP",
+  "version": "2.0.0b",
   "permissions": ["activeTab", "storage", "scripting", "identity"],
   "host_permissions": ["https://api.twitch.tv/*", "https://id.twitch.tv/*"],
   "action": {
