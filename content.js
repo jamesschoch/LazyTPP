@@ -9,7 +9,7 @@
 
 
 
-var clientId = '';
+var clientId = 'mpygzcdsndi2wfxoysnvpom5hif7fe';
 var twitchurl = "https://www.twitch.tv/twitchplayspokemon/";
 var socket;
 var accessToken;
